@@ -6,7 +6,15 @@
 
 %% Saved with string encoding Unicode (UTF-8) 
 
-
+@misc{tu2026privacyreasonerllmemulatehumanlike,
+      title={PrivacyReasoner: Can LLM Emulate a Human-like Privacy Mind?}, 
+      author={Yiwen Tu and Xuan Liu and Lianhui Qin and Haojian Jin},
+      year={2026},
+      eprint={2601.09152},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2601.09152}, 
+}
 
 @conference{tuDA4ML2024,
 	abstract = {Data attribution quantifies the influence of individual training data points on machine learning models, aiding in their interpretation and improvement. While prior work has primarily focused on single-task learning (STL), this work extends data attribution to multitask learning (MTL). Data attribution in MTL presents new opportunities for interpreting and improving MTL models while also introducing unique technical challenges. On the opportunity side, data attribution in MTL offers a natural way to efficiently measure task relatedness, a key factor that impacts the effectiveness of MTL. However, the shared and task-specific parameters in MTL models present challenges that require specialized data attribution methods. In this paper, we propose the MultiTask Influence Function (MTIF), a novel data attribution method tailored for MTL. MTIF leverages the structure of MTL models to efficiently estimate the impact of removing data points or excluding tasks on the predictions of specific target tasks, providing both data-level and task-level influence analysis. Extensive experiments on both linear and neural network models show that MTIF effectively approximates leave-one-out and leave-one-task-out effects. Moreover, MTIF facilitates fine-grained data selection, consistently improving model performance in MTL, and provides interpretable insights into task relatedness. Our work establishes a novel connection between data attribution and MTL, offering an efficient and scalable solution for measuring task relatedness and enhancing MTL models.},
@@ -21,20 +29,13 @@
 	title = {Data Attribution for Multitask Learning},
 	year = {2024}}
 
-@misc{tu2024reliable,
-	abstract = {Machine unlearning is the process of updating machine learning models to remove the information of specific training data samples, in order to comply with data protection regulations that allow individuals to request the removal of their personal data. Despite the recent development of numerous unlearning algorithms, reliable evaluation of these algorithms remains an open research question. In this work, we focus on membership inference attack (MIA) based evaluation, one of the most common approaches for evaluating unlearning algorithms, and address various pitfalls of existing evaluation metrics that lack reliability. Specifically, we propose a game-theoretic framework that formalizes the evaluation process as a game between unlearning algorithms and MIA adversaries, measuring the data removal efficacy of unlearning algorithms by the capability of the MIA adversaries. Through careful design of the game, we demonstrate that the natural evaluation metric induced from the game enjoys provable guarantees that the existing evaluation metrics fail to satisfy. Furthermore, we propose a practical and efficient algorithm to estimate the evaluation metric induced from the game, and demonstrate its effectiveness through both theoretical analysis and empirical experiments. This work presents a novel and reliable approach to empirically evaluating unlearning algorithms, paving the way for the development of more effective unlearning techniques.},
-	archiveprefix = {arXiv},
-	author = {Yiwen Tu and Pingbang Hu and Jiaqi Ma},
-	date-modified = {2024-10-31 17:29:27 -0700},
-	eprint = {2404.11577},
-	keywords = {Machine Unlearning, Privacy and Security, Membership Inference Attacks},
-	month = {April},
-	pdf = {https://arxiv.org/pdf/2404.11577},
-	primaryclass = {cs.LG},
-	title = {Towards Reliable Empirical Machine Unlearning Evaluation: A Game-Theoretic View},
-	url = {https://arxiv.org/abs/2404.11577},
-	year = {2024},
-	bdsk-file-1 = {YnBsaXN0MDDSAQIDBFxyZWxhdGl2ZVBhdGhYYm9va21hcmtfEBkuLi9hc3NldHMvcGRmL3VubGVhcm4ucGRmTxEEBGJvb2sEBAAAAAAEEDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAFAAAAAQEAAFVzZXJzAAAABgAAAAEBAABldmFudHUAAAkAAAABAQAARG9jdW1lbnRzAAAABgAAAAEBAABhc3NldHMAAAMAAAABAQAAcGRmAAsAAAABAQAAdW5sZWFybi5wZGYAHAAAAAEGAAAEAAAAFAAAACQAAAAUAAAAOAAAAEgAAABUAAAACAAAAAQDAABdQgAAAAAAAAgAAAAEAwAA9hcEAAAAAAAIAAAABAMAACcYBAAAAAAACAAAAAQDAACFVQkAAAAAAAgAAAAEAwAAlFYJAAAAAAAIAAAABAMAANxWCQAAAAAACAAAAAQDAACqTg0AAAAAABwAAAABBgAAjAAAAJwAAACsAAAAvAAAAMwAAADcAAAA7AAAAAgAAAAABAAAQcZplhaK+ZUYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAgAAAAEAwAABQAAAAAAAAAEAAAAAwMAAPUBAAAIAAAAAQkAAGZpbGU6Ly8vDAAAAAEBAABNYWNpbnRvc2ggSEQIAAAABAMAAAAAhxE5AAAACAAAAAAEAABBxiUIIgAAACQAAAABAQAAQ0Y3MUQwRTMtQjgzQi00QkRELUI1NEEtMzBCNDZCMUNGOTIwGAAAAAECAACBAAAAAQAAAO8TAAABAAAAAAAAAAAAAAABAAAAAQEAAC8AAAAAAAAAAQUAAOcAAAABAgAAOWI2NjE4MjQ1YTY4YTU3MGVhMzk3M2I2NDRiNjU5YzQ5MjI5YzJmZmVkMGFhOWJjZDA1YTM5OTc5Y2ZmYWZhNzswMDswMDAwMDAwMDswMDAwMDAwMDswMDAwMDAwMDswMDAwMDAwMDAwMDAwMDIwO2NvbS5hcHBsZS5hcHAtc2FuZGJveC5yZWFkLXdyaXRlOzAxOzAxMDAwMDExOzAwMDAwMDAwMDAwZDRlYWE7NDg7L3VzZXJzL2V2YW50dS9kb2N1bWVudHMvZXZhbnR1L2Fzc2V0cy9wZGYvdW5sZWFybi5wZGYAAMwAAAD+////AQAAAAAAAAAQAAAABBAAAGgAAAAAAAAABRAAAPwAAAAAAAAAEBAAADABAAAAAAAAQBAAACABAAAAAAAAAiAAAPwBAAAAAAAABSAAAGwBAAAAAAAAECAAAHwBAAAAAAAAESAAALABAAAAAAAAEiAAAJABAAAAAAAAEyAAAKABAAAAAAAAICAAANwBAAAAAAAAMCAAAAgCAAAAAAAAAcAAAFABAAAAAAAAEcAAABQAAAAAAAAAEsAAAGABAAAAAAAAgPAAABACAAAAAAAAAAgADQAaACMAPwAAAAAAAAIBAAAAAAAAAAUAAAAAAAAAAAAAAAAAAARH}}
+@inproceedings{tu2025a,
+	title={A Reliable Cryptographic Framework for Empirical Machine Unlearning Evaluation},
+	author={Yiwen Tu and Pingbang Hu and Jiaqi W. Ma},
+	booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+	year={2025},
+	url={https://openreview.net/forum?id=TYoYJStuN9}
+}
 
 @inproceedings{pmlr-v198-ma22a,
 	abstract = {Establishing open and general benchmarks has been a critical driving force behind the success of modern machine learning techniques. As machine learning is being applied to broader domains and tasks, there is a need to establish richer and more diverse benchmarks to better reflect the reality of the application scenarios. Graph learning is an emerging field of machine learning that urgently needs more and better benchmarks. To accommodate the need, we introduce Graph Learning Indexer (GLI), a benchmark curation platform for graph learning. In comparison to existing graph learning benchmark libraries, GLI highlights two novel design objectives. First, GLI is designed to incentivize \emph{dataset contributors}. In particular, we incorporate various measures to minimize the effort of contributing and maintaining a dataset, increase the usability of the contributed dataset, as well as encourage attributions to different contributors of the dataset. Second, GLI is designed to curate a knowledge base, instead of a plain collection, of benchmark datasets. We use multiple sources of meta information to augment the benchmark datasets with \emph{rich characteristics}, so that they can be easily selected and used in downstream research or development. The source code of GLI is available at \url{https://github.com/Graph-Learning-Benchmarks/gli}. },
