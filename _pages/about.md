@@ -21,9 +21,9 @@ social: true # includes social icons at the bottom of the page
 
 <p>Broadly, my work centers on the following two aspects of trustworthy machine learning, especially in the context of LLM reasoning capabilities:</p>
 <ul>
-  <li><em>Privacy</em>, such as <em> machine unlearning </em>, <em> data privacy </em>  </li>
-  <li><em>Interpretability</em>, such as <em> data attribution </em>, <em> intrinsic interpretability </em> </li>
+  <li><em>Privacy</em>, such as <em> machine unlearning</em>, <em> data privacy </em>  </li>
+  <li><em>Interpretability</em>, such as <em> data attribution</em>, <em> intrinsic interpretability </em> </li>
 </ul>
 
-<p style="color: red;">I am actively looking for PhD positions starting in Fall 2026 . Please email me if you have relevant opportunities!</p>
+<p style="color: red;">I am actively looking for PhD positions starting in Fall 2026. Please email me if you have relevant opportunities!</p>
 
