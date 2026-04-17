@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://cse.ucsd.edu'>University of California, San Diego</a>. Address. y2tu@ucsd.edu.
+subtitle: <a href='https://cse.ucsd.edu'>University of California, San Diego</a>. y2tu@ucsd.edu.
 
 profile:
   align: right
@@ -17,7 +17,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-<p> Hi! I'm an incoming PhD student at University of Illinois, Urbana-Champaign (UIUC), advised by <a href='https://jiaqima.github.io'> Jiaqi Ma </a>. I received a master degree of computer science at University of California, San Diego, a bachelor degree of computer science at University of Michigan, Ann Arbor, and a bachelor degree of electrical computer engineering in Shanghai Jiao Tong University. Previously I'm super lucky to be advised by professor <a href = 'https://www.haojianj.in'> Haojian jin </a>, professor <a href = 'https://lilywenglab.github.io'> Lily Weng </a>, professor <a href = 'https://umich-foreseer.github.io'> Qiaozhu Mei </a>. </p>
+<p> Hi! I'm an incoming PhD student at University of Illinois, Urbana-Champaign (UIUC), advised by Prof. <a href='https://jiaqima.github.io'> Jiaqi Ma </a>. I'm currently interning at <a href='https://www.bytedance.com/zh/'> Bytedance </a>. I received a master degree of computer science at University of California, San Diego, a bachelor degree of computer science at University of Michigan, Ann Arbor, and a bachelor degree of electrical computer engineering in Shanghai Jiao Tong University. Previously I'm super lucky to be advised by Prof. <a href = 'https://www.haojianj.in'> Haojian jin </a>, Prof. <a href = 'https://lilywenglab.github.io'> Lily Weng </a> and Prof. <a href = 'https://umich-foreseer.github.io'> Qiaozhu Mei </a>. </p>
 
 <p>Broadly, my work centers on the following two aspects of trustworthy machine learning, especially in the context of LLM reasoning capabilities:</p>
 <ul>
@@ -25,5 +25,4 @@ social: true # includes social icons at the bottom of the page
   <li><em>Interpretability</em>, such as <em> data attribution</em>, <em> intrinsic interpretability </em> </li>
 </ul>
 
-<p style="color: red;">I am actively looking for PhD positions starting in Fall 2026. Please email me if you have relevant opportunities!</p>
 
