@@ -2,15 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://cse.ucsd.edu'>University of California, San Diego</a>. y2tu@ucsd.edu.
+subtitle: <a href='https://www.bytedance.com/zh/'> Bytedance </a>. yiwentu@bytedance.com.
 
 profile:
   align: right
   image: my_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>3869 Miramar St</p>
-    <p>La Jolla, California 92092</p>
+    <p>T2, Shanghai Xinjiangwan Plaza</p>
+    <p>Np.678, Minfu Road, Yangpu District</p>
+    <p>Shanghai, China</p>
 
 news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
